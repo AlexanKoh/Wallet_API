@@ -1,5 +1,5 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlexanKoh&repo=Wallet_API&layout=compact&theme=radical&hide_border=true)
-[![Docker Image CI](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build.yml/badge.svg)](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build.yml)
+[![Docker Image CI](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build-push.yml)
 # Wallet API
 
 REST API для управления кошельками пользователей с поддержкой конкурентных операций.
