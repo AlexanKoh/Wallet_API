@@ -62,36 +62,11 @@ docker-compose -f docker-compose.prod.yml up
 
 ### Приложение доступно по адресу: **http://localhost:8000**
 
-### Документация API:
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
 ### Остановка:
 ```bash
 docker-compose down
 ```
 (или с указанием файла: `docker-compose -f имя-файла.yml down`)
-### Требования:
-- Docker
-- Docker Compose
-
-### Запуск:
-
-```bash
-# Клонируйте репозиторий
-git clone <repository-url>
-cd wallet
-
-# Запустите приложение
-docker-compose up
-```
-
-Приложение будет доступно по адресу: **http://localhost:8000**
-
-### Остановка:
-```bash
-docker-compose down
-```
 
 ## Документация API
 
