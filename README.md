@@ -1,5 +1,5 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AlexanKoh&repo=Wallet_API&layout=compact&theme=radical&hide_border=true)
-
+[![Docker Image CI](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build.yml/badge.svg)](https://github.com/AlexanKoh/Wallet_API/actions/workflows/docker-build.yml)
 # Wallet API
 
 REST API для управления кошельками пользователей с поддержкой конкурентных операций.
@@ -44,6 +44,33 @@ REST API для управления кошельками пользовател
 
 ## Запуск приложения
 
+### Требования:
+- Docker
+- Docker Compose
+
+### Варианты запуска:
+
+#### 1. 🛠️ Для локальной разработки (сборка из исходного кода):
+```bash
+docker-compose -f docker-compose.dev.yml up --build
+```
+
+#### 2. 🚀 Для запуска готовых контейнеров из Docker Hub:
+```bash
+docker-compose -f docker-compose.prod.yml up
+```
+
+### Приложение доступно по адресу: **http://localhost:8000**
+
+### Документация API:
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+
+### Остановка:
+```bash
+docker-compose down
+```
+(или с указанием файла: `docker-compose -f имя-файла.yml down`)
 ### Требования:
 - Docker
 - Docker Compose
